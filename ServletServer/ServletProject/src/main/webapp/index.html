@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/ServletProject/example1.do">
+        이름 : <input type="text" name="inputName"><br>
+        나이 : <input type="number" name="inputAge">
+
+        <button>전송</button>
+    </form>
+
+    <form action="/ServletProject/example2.do">
+        커피 주문
+
+        <br>
+        hot <input type="radio" name="coffee" value="hot">
+        ice <input type="radio" name="coffee" value="ice">
+        <br>
+        음료 정하기
+        <select name="drink">
+            <option>아메리카노</option>
+            <option>초코칩프라푸치노</option>
+            <option>자몽에이드</option>
+            <option>바닐라라떼</option>
+        </select>
+        <br>
+        <h2>샷 선택</h2>
+        1샷 추가 <input type="checkbox" name="opt" value="shot1">
+        2샷 추가 <input type="checkbox" name="opt" value="shot2">
+        부드럽게 <input type="checkbox" name="opt" value="softly">
+        <br>
+        포장 여부
+        테이크 아웃 <input type="radio" name="takeInTakeOut" value="takeOut">
+        매장 <input type="radio" name="takeInTakeOut" value="takeIn">
+
+        <button>주문</button>
+
+    </form>
+
+
+</body>
+</html>
