@@ -1,8 +1,0 @@
-INDEX VERSION 1.4+/Users/deokkeun/eclipse-workspace/YoSangSoProject/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-1115301575.index
-322618768.index
-1544057904.index
-4057987183.index
-677528497.index
-164326680.index
-2216426313.index
